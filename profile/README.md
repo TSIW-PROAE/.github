@@ -1,7 +1,7 @@
 # PROAE - Sistema de Gestão para Pró-Reitoria de Ações Afirmativas e Assistência Estudantil
 
 <div align="center">
-  <img src="./img/logo_pgcomp.png" alt="Logo PROAE" width="140">
+  <img src="../img/logo_pgcomp.png" alt="Logo PROAE" width="140">
 </div>
 
 ## 📋 Sobre o Projeto
