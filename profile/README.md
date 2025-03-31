@@ -83,3 +83,124 @@ Desenvolvido para a disciplina Tópicos em Sistemas de Informação e Web I (IC0
 O projeto é dividido em três repositórios:
 
 1. **[Documentação](https://github.com/TSIW-PROAE/proae_documents):**
+content_copy
+download
+Use code with caution.
+Markdown
+project_management/
+technical_documentation/
+requirements/
+design/
+guidelines/
+references/
+miscellaneous/
+
+2. **[Frontend](https://github.com/TSIW-PROAE/proae_frontend):**
+content_copy
+download
+Use code with caution.
+proae-frontend/
+├── public/
+├── src/
+│ ├── assets/
+│ ├── components/
+│ ├── context/
+│ ├── features/
+│ ├── hooks/
+│ ├── pages/
+│ ├── services/
+│ ├── styles/
+│ ├── utils/
+│ ├── App.tsx
+│ ├── main.tsx
+│ └── setupTests.ts
+├── .env
+├── package.json
+└── README.md
+
+3. **[Backend](https://github.com/TSIW-PROAE/proae_backend):**  A estrutura do backend será definida de acordo com as melhores práticas do NestJS e poderá incluir pastas como `src`, `dist`, `node_modules`, entre outras.  Detalhes da estrutura serão documentados no repositório do backend.
+
+
+## Como Executar o Projeto <a name="como-executar-o-projeto"></a>
+
+**Frontend:**
+
+1. Clonar o repositório: `git clone https://github.com/TSIW-PROAE/proae_frontend.git`
+2. Navegar até o diretório: `cd proae_frontend`
+3. Instalar dependências: `npm install`
+4. Renomear `.env.example` para `.env` e configurar as variáveis de ambiente.
+5. Iniciar o servidor de desenvolvimento: `npm run dev`
+
+**Backend:**
+
+1. Clonar o repositório: `git clone https://github.com/TSIW-PROAE/proae_backend.git`
+2. Navegar até o diretório: `cd proae_backend`
+3. Instalar dependências: `npm install`
+4. Renomear `.env.example` para `.env` e configurar as variáveis de ambiente.
+5. Executar o Docker Compose: `docker-compose up -d`
+6. Iniciar o servidor de desenvolvimento: `npm run start:dev`
+
+
+## Fluxo de Trabalho <a name="fluxo-de-trabalho"></a>
+
+* **Gitflow:** Utilização do workflow Gitflow para organização das branches (develop, feature, release, hotfix).
+* **Pull Requests:** Abertura de Pull Requests para revisão de código antes da integração com a branch principal.
+* **Commit Messages:** Padronização das mensagens de commit para clareza e organização do histórico do projeto (ex: `feat: adiciona nova funcionalidade`, `fix: corrige bug`).
+* **Coding Standards:**  ESLint e Prettier serão utilizados para garantir a qualidade e consistência do código.  As configurações serão definidas em arquivos de configuração específicos em cada repositório.
+
+
+## Testes <a name="testes"></a>
+
+* **Frontend:** Testes unitários e de integração utilizando Jest e React Testing Library.
+* **Backend:** Testes unitários e de integração utilizando Jest.  A cobertura de testes será monitorada para garantir a qualidade do código.
+
+
+## Ambiente de Desenvolvimento <a name="ambiente-de-desenvolvimento"></a>
+
+* Docker e Docker Compose serão utilizados para garantir um ambiente de desenvolvimento consistente e facilitar a configuração.
+* Um arquivo `docker-compose.yml` será criado para definir os serviços e suas dependências.
+
+
+## Segurança <a name="segurança"></a>
+
+* **JWT (JSON Web Tokens):** Utilização de JWT para autenticação e autorização de usuários.
+* **Controle de Acesso Baseado em Roles:** Níveis de acesso diferenciados para diferentes tipos de usuários (administradores, assistentes sociais, alunos).
+* **Medidas de segurança:** Implementação de medidas para prevenir ataques comuns como SQL Injection, Cross-Site Scripting (XSS) e Cross-Site Request Forgery (CSRF).  Serão utilizadas bibliotecas e técnicas de segurança para proteger o sistema contra essas vulnerabilidades.
+
+
+
+## Documentação <a name="documentação"></a>
+
+* **Documentação da API (Backend):** Swagger será utilizado para documentar a API REST.
+* **Documentação do Código:** JSDoc será utilizado para documentar o código-fonte.
+* **Arquitetura do Sistema:** Diagramas e descrições detalhadas da arquitetura do sistema serão incluídos na documentação. Diagramas serão criados utilizando ferramentas como Mermaid ou Draw.io.
+* **Organização da Documentação:** A documentação será mantida organizada e atualizada no repositório `proae_documents`.
+
+
+## Colaboradores <a name="colaboradores"></a>
+
+**Frontend:**
+
+* **Hevelin Freitas:** [Link para o GitHub - Completar]
+* **Mauricio Menezes:** [Link para o GitHub - Completar]
+* **Caio Alcarria:** [Link para o GitHub - Completar]
+
+**Backend:**
+
+* **Thales Macêdo:** [Link para o GitHub - Completar]
+* **Mauricio Menezes:** [Link para o GitHub - Completar]
+* **Hugo Chaves:** [Link para o GitHub - Completar]
+* **Jessica Ellen:** [Link para o GitHub - Completar]
+* **Lucas Lima:** [Link para o GitHub - Completar]
+* **Marcos Vinicius:** [Link para o GitHub - Completar]
+
+
+## Licença <a name="licença"></a>
+
+O projeto PROAE é licenciado sob a [Creative Commons Attribution 4.0](LICENSE).
+
+
+## Contato <a name="contato"></a>
+
+* **Email:** tsiw-proae@ufba.br
+* **GitHub:** [TSIW-PROAE](https://github.com/TSIW-PROAE)
