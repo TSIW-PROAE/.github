@@ -73,8 +73,6 @@ design/
 guidelines/
 references/
 miscellaneous/
-content_copy
-download
 Use code with caution.
 Frontend:
 proae-frontend/
@@ -95,8 +93,6 @@ proae-frontend/
 ├── .env
 ├── package.json
 └── README.md
-content_copy
-download
 Use code with caution.
 Backend:
 (Estrutura detalhada não fornecida no material original)
