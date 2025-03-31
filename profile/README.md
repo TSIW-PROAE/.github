@@ -180,20 +180,90 @@ proae-frontend/
 ## Colaboradores <a name="colaboradores"></a>
 
 **Frontend:**
+<table>
+  <tr>
+    <td align="center">
+      <a href="#" title="defina o título do link">
+        <img src="https://avatars.githubusercontent.com/u/55918680?v=4" width="100px;" alt="Foto do Hevelin no GitHub"/><br>
+        <sub>
+          <b>Hevelin Freitas</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#" title="defina o título do link">
+        <img src="https://avatars.githubusercontent.com/u/20570844?v=4" width="100px;" alt="Foto do Hevelin no GitHub"/><br>
+        <sub>
+          <b>Mauricio Menezes</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#" title="defina o título do link">
+        <img src="https://avatars.githubusercontent.com/u/101140937?v=4" width="100px;" alt="Foto do Steve Jobs"/><br>
+        <sub>
+          <b>Caio Alcarria</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
-* **Hevelin Freitas:** [Link para o GitHub - Completar]
-* **Mauricio Menezes:** [Link para o GitHub - Completar]
-* **Caio Alcarria:** [Link para o GitHub - Completar]
 
 **Backend:**
 
-* **Thales Macêdo:** [Link para o GitHub - Completar]
-* **Mauricio Menezes:** [Link para o GitHub - Completar]
-* **Hugo Chaves:** [Link para o GitHub - Completar]
-* **Jessica Ellen:** [Link para o GitHub - Completar]
-* **Lucas Lima:** [Link para o GitHub - Completar]
-* **Marcos Vinicius:** [Link para o GitHub - Completar]
-
+<table>
+  <tr>
+    <td align="center">
+      <a href="#" title="defina o título do link">
+        <img src="https://avatars.githubusercontent.com/u/24979899?s=96&v=4" width="100px;" alt="Foto do Thales no GitHub"/><br>
+        <sub>
+          <b>Thales Macêdo</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#" title="defina o título do link">
+        <img src="https://avatars.githubusercontent.com/u/20570844?v=4" width="100px;" alt="Foto do Maurício no GitHub"/><br>
+        <sub>
+          <b>Mauricio Menezes</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#" title="defina o título do link">
+        <img src="https://avatars.githubusercontent.com/u/83249854?s=64&v=4" width="100px;" alt="Foto do Hugo no GitHub"/><br>
+        <sub>
+          <b>Hugo Chaves</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#" title="defina o título do link">
+        <img src="https://avatars.githubusercontent.com/u/95954597?s=64&v=4" width="100px;" alt="Foto da Jessica no GitHub"/><br>
+        <sub>
+          <b>Jessica Ellen</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#" title="defina o título do link">
+        <img src="https://avatars.githubusercontent.com/u/53127444?s=64&v=4" width="100px;" alt="Foto do Lucas no GitHub"/><br>
+        <sub>
+          <b>Lucas Lima</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#" title="defina o título do link">
+        <img src="https://avatars.githubusercontent.com/u/11302968?s=70&v=4" width="100px;" alt="Foto do Marcos no GitHub"/><br>
+        <sub>
+          <b>Marcos Vinicius</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
 ## Licença <a name="licença"></a>
 
