@@ -52,7 +52,7 @@ Desenvolvido para a disciplina Tópicos em Sistemas de Informação e Web I (IC0
 
 O projeto é dividido em três repositórios com algumas documentações em destaque, como:
 
-1. **[Documentação](https://github.com/TSIW-PROAE/proae_documents):**
+1. **<a href="https://github.com/TSIW-PROAE/proae_documents" target="_blank">[Documentação]:</a>**
 content_copy
 download
 Use code with caution.
@@ -65,7 +65,8 @@ guidelines/
 references/
 miscellaneous/
 
-2. **[Frontend](https://github.com/TSIW-PROAE/proae_frontend):**
+
+2. **<a href="https://github.com/TSIW-PROAE/proae_frontend" target="_blank">[Frontend]:</a>)**
 content_copy
 download
 Use code with caution.
