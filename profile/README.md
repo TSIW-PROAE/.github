@@ -88,7 +88,7 @@ proae-frontend/
 ├── package.json
 └── README.md
 
-<ol>
+<ol start="3">
   <li>
     <strong><a href="https://github.com/TSIW-PROAE/proae_backend" target="_blank">Backend</a>:</strong>
     A estrutura do backend será definida de acordo com as melhores práticas do NestJS e poderá incluir pastas como <code>src</code>, <code>dist</code>, <code>node_modules</code>, entre outras. Detalhes da estrutura serão documentados no repositório do backend.
