@@ -88,13 +88,25 @@ proae-frontend/
 ├── package.json
 └── README.md
 
-3. **[Backend](https://github.com/TSIW-PROAE/proae_backend):**  A estrutura do backend será definida de acordo com as melhores práticas do NestJS e poderá incluir pastas como `src`, `dist`, `node_modules`, entre outras.  Detalhes da estrutura serão documentados no repositório do backend.
+<ol>
+  <li>
+    <strong><a href="https://github.com/TSIW-PROAE/proae_backend" target="_blank">Backend</a>:</strong>
+    A estrutura do backend será definida de acordo com as melhores práticas do NestJS e poderá incluir pastas como <code>src</code>, <code>dist</code>, <code>node_modules</code>, entre outras. Detalhes da estrutura serão documentados no repositório do backend.
+  </li>
+  <li>
+    <strong><a href="https://github.com/TSIW-PROAE/proae_documents/tree/main/requirements" target="_blank">Documento de requisitos</a>:</strong>
+    Esse documento contém todos os requisitos do projeto definidos pela equipe junto ao cliente através de conversas e reuniões formais.
+  </li>
+  <li>
+    <strong><a href="https://www.figma.com/design/40hh19XODV4sDGmFYP2X33/PROAE-PROJECT?m=auto&t=GCeBpKKnjMlg3FL6-1" target="_blank">Prototipação</a>:</strong>
+    Esse documento contém a prototipação do projeto levando em consideração todos os requisitos funcionais decididos previamente.
+  </li>
+  <li>
+    <strong><a href="https://github.com/TSIW-PROAE/proae_documents/tree/main/project_management/meeting_minutes" target="_blank">Atas de reunião gerais</a>:</strong>
+    Essa pasta contém todas as atas de reuniões realizadas. Nessas atas buscamos expor todas as tomadas de decisões da equipe, assim como todos os detalhes das nossas reuniões de time.
+  </li>
+</ol>
 
-4. **[Documento de requisitos](https://github.com/TSIW-PROAE/proae_documents/tree/main/requirements):** Esse documento contém todos os requisitos do projeto definidos pela equipe junto ao cliente através de conversas e reuniões formais.
-
-5. **[Prototipação](https://www.figma.com/design/40hh19XODV4sDGmFYP2X33/PROAE-PROJECT?m=auto&t=GCeBpKKnjMlg3FL6-1):** Esse documento contém a prototipação do projeto levando em consideração todos os requisitos funcionais decididos previamente. 
-
-6. **[Atas de reunião gerais](https://github.com/TSIW-PROAE/proae_documents/tree/main/project_management/meeting_minutes):** Essa pasta contém todas as atas de reuniões realizadas. Nessas atas buscamos expor todas as tomadas de decisões da equipe, assim como todos os detalhes das nossas reuniões de time. 
 
 ## Fluxo de Trabalho <a name="fluxo-de-trabalho"></a>
 
