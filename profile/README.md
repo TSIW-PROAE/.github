@@ -92,7 +92,7 @@ proae-frontend/
 
 4. **[Documento de requisitos](https://github.com/TSIW-PROAE/proae_documents/tree/main/requirements):** Esse documento contém todos os requisitos do projeto definidos pela equipe junto ao cliente através de conversas e reuniões formais.
 
-5. **[Prototipação]():** Esse documento contém a prototipação do projeto levando em consideração todos os requisitos funcionais decididos previamente. 
+5. **[Prototipação](https://www.figma.com/design/40hh19XODV4sDGmFYP2X33/PROAE-PROJECT?m=auto&t=GCeBpKKnjMlg3FL6-1):** Esse documento contém a prototipação do projeto levando em consideração todos os requisitos funcionais decididos previamente. 
 
 6. **[Atas de reunião gerais](https://github.com/TSIW-PROAE/proae_documents/tree/main/project_management/meeting_minutes):** Essa pasta contém todas as atas de reuniões realizadas. Nessas atas buscamos expor todas as tomadas de decisões da equipe, assim como todos os detalhes das nossas reuniões de time. 
 
