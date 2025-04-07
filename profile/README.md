@@ -10,11 +10,9 @@
 
 ## Índice
 
-* [Objetivo e Contexto](#objetivo-e-contexto)
-* [Funcionalidades](#funcionalidades)
+* [Objetivos e Contexto](#objetivos-e-contexto)
 * [Tecnologias](#tecnologias)
 * [Estrutura do Projeto](#estrutura-do-projeto)
-* [Como Executar o Projeto](#como-executar-o-projeto)
 * [Fluxo de Trabalho](#fluxo-de-trabalho)
 * [Testes](#testes)
 * [Ambiente de Desenvolvimento](#ambiente-de-desenvolvimento)
@@ -27,38 +25,9 @@
 
 ---
 
-## Objetivo e Contexto <a name="objetivo-e-contexto"></a>
+## Objetivos e Contexto <a name="objetivos-e-contexto"></a>
 
 Desenvolvido para a disciplina Tópicos em Sistemas de Informação e Web I (IC045/MATE85) na UFBA, o PROAE visa construir um sistema de gestão completo para a Pró-Reitoria de Ações Afirmativas e Assistência Estudantil. O projeto é mantido pela organização [TSIW-PROAE](https://github.com/TSIW-PROAE) no GitHub e busca centralizar informações, automatizar processos, melhorar a comunicação com estudantes e aprimorar a transparência na gestão da assistência estudantil.
-
-
-## Funcionalidades <a name="funcionalidades"></a>
-
-**Requisitos Funcionais:**
-
-* **Centralização de Informações:** Consolidar documentos, dados de estudantes e familiares, histórico de processos e pareceres em um único sistema.
-* **Gestão de Processos Seletivos:**
-    * Cadastro de editais com baremas e documentos específicos.
-    * Inscrições online com validação automática de documentos e análise de renda.
-    * Emissão de pareceres com opções pré-definidas para indeferimentos.
-    * Acompanhamento do status da inscrição e comunicação com o estudante.
-    * Divulgação de resultados (preliminares, recursos, finais).
-* **Validação de Documentos:** Automatizar a verificação de documentos com alertas para inconsistências.
-* **Comunicação com Estudantes:** Envio de alertas, notificações e respostas automatizadas sobre o status das solicitações.
-* **Relatórios e Análises:** Geração de relatórios e análises para tomada de decisões estratégicas.
-* **Integração com Outros Sistemas:** Integração com o sistema de matrícula e outros sistemas relevantes da UFBA.
-* **Manutenção de Histórico:** Preservação de dados históricos pelo período legalmente exigido.
-
-**Requisitos Não Funcionais:**
-
-* **Segurança e Sigilo de Dados:** Acesso restrito, níveis de sigilo para informações sensíveis e histórico de observações.
-* **Usabilidade:** Interface intuitiva e fácil de usar.
-* **Performance:** Tempo de resposta rápido e eficiente.
-* **Escalabilidade:** Capacidade de lidar com um grande volume de usuários e dados.
-* **Disponibilidade:** Sistema acessível 24/7.
-* **Manutenibilidade:** Código limpo, documentado e modular para facilitar a manutenção.
-
-
 
 ## Tecnologias <a name="tecnologias"></a>
 
@@ -75,12 +44,13 @@ Desenvolvido para a disciplina Tópicos em Sistemas de Informação e Web I (IC0
 * **PostgreSQL:** Sistema de gerenciamento de banco de dados relacional.
 * **Docker:** Plataforma para conteinerização de aplicações.
 * **Docker-Compose:** Ferramenta para orquestrar múltiplos containers Docker.
+* **Type-ORM:** Ferramenta que permite a interação com bancos de dados relacionais usando a abordagem orientada a objetos.
 * **TypeScript:** Superset de JavaScript que adiciona tipagem estática.
 
 
 ## Estrutura do Projeto <a name="estrutura-do-projeto"></a>
 
-O projeto é dividido em três repositórios:
+O projeto é dividido em três repositórios com algumas documentações em destaque, como:
 
 1. **[Documentação](https://github.com/TSIW-PROAE/proae_documents):**
 content_copy
@@ -120,26 +90,11 @@ proae-frontend/
 
 3. **[Backend](https://github.com/TSIW-PROAE/proae_backend):**  A estrutura do backend será definida de acordo com as melhores práticas do NestJS e poderá incluir pastas como `src`, `dist`, `node_modules`, entre outras.  Detalhes da estrutura serão documentados no repositório do backend.
 
+4. **[Documento de requisitos](https://github.com/TSIW-PROAE/proae_documents/tree/main/requirements):** Esse documento contém todos os requisitos do projeto definidos pela equipe junto ao cliente através de conversas e reuniões formais.
 
-## Como Executar o Projeto <a name="como-executar-o-projeto"></a>
+5. **[Prototipação]():** Esse documento contém a prototipação do projeto levando em consideração todos os requisitos funcionais decididos previamente. 
 
-**Frontend:**
-
-1. Clonar o repositório: `git clone https://github.com/TSIW-PROAE/proae_frontend.git`
-2. Navegar até o diretório: `cd proae_frontend`
-3. Instalar dependências: `npm install`
-4. Renomear `.env.example` para `.env` e configurar as variáveis de ambiente.
-5. Iniciar o servidor de desenvolvimento: `npm run dev`
-
-**Backend:**
-
-1. Clonar o repositório: `git clone https://github.com/TSIW-PROAE/proae_backend.git`
-2. Navegar até o diretório: `cd proae_backend`
-3. Instalar dependências: `npm install`
-4. Renomear `.env.example` para `.env` e configurar as variáveis de ambiente.
-5. Executar o Docker Compose: `docker-compose up -d`
-6. Iniciar o servidor de desenvolvimento: `npm run start:dev`
-
+6. **[Atas de reunião gerais](https://github.com/TSIW-PROAE/proae_documents/tree/main/project_management/meeting_minutes):** Essa pasta contém todas as atas de reuniões realizadas. Nessas atas buscamos expor todas as tomadas de decisões da equipe, assim como todos os detalhes das nossas reuniões de time. 
 
 ## Fluxo de Trabalho <a name="fluxo-de-trabalho"></a>
 
@@ -166,7 +121,6 @@ proae-frontend/
 * **JWT (JSON Web Tokens):** Utilização de JWT para autenticação e autorização de usuários.
 * **Controle de Acesso Baseado em Roles:** Níveis de acesso diferenciados para diferentes tipos de usuários (administradores, assistentes sociais, alunos).
 * **Medidas de segurança:** Implementação de medidas para prevenir ataques comuns como SQL Injection, Cross-Site Scripting (XSS) e Cross-Site Request Forgery (CSRF).  Serão utilizadas bibliotecas e técnicas de segurança para proteger o sistema contra essas vulnerabilidades.
-
 
 
 ## Documentação <a name="documentação"></a>
