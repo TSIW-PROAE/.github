@@ -173,6 +173,14 @@ proae-frontend/
         </sub>
       </a>
     </td>
+    <td align="center">
+      <a href="#" title="defina o título do link">
+        <img src="https://avatars.githubusercontent.com/u/31896950?v=4" width="100px;" alt="Foto do Allan no GitHub"/><br>
+        <sub>
+          <b>Allan Oliveira</b>
+        </sub>
+      </a>
+    </td>
   </tr>
 </table>
 
