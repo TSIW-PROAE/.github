@@ -245,6 +245,14 @@ proae-frontend/
         </sub>
       </a>
     </td>
+    <td align="center">
+      <a href="#" title="defina o título do link">
+        <img src="https://avatars.githubusercontent.com/u/101533543?v=4" width="100px;" alt="Foto do Matheus no GitHub"/><br>
+        <sub>
+          <b>Matheus Salaroli</b>
+        </sub>
+       </a>
+    </td>
   </tr>
 </table>
 
